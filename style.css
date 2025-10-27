@@ -1,0 +1,26 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/6245530.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+}
+#abc{
+    color: white;
+}
+table{
+    width: 400px;
+    
+}
+input.add{
+    width: 60px;
+}
+input{
+    height: 35px;
+    border-radius: 6px;
+    
+}
+
+
+

@@ -13,7 +13,7 @@ function display(){
         <tr>
             <td>${todosarray[ind].task}</td>
             <td>${todosarray[ind].time}</td>
-            <td><button onclick="deletetask(${ind})">delete</button></td>
+            <td><button onclick="deletetask(${ind})" type="button" class="btn btn-primary">delete</button></td>
             <td><button onclick="edittask(${ind})" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">edit</button></td>
         </tr>
         `
@@ -67,4 +67,6 @@ function addtask(e){
     }
     todosarray.push(obj);
     display();
+    allforms.addform.task.value="";
+    allforms.addform.time.value="";    
 }
